@@ -88,47 +88,47 @@ Compares forecasting models and evaluates prediction quality.
 
 ---
 
-📦 Rossmann-Store-Sales-Analytics
+## 📂 Project Structure
+
+```text
+Rossmann-Store-Sales-Analytics
 │
-├── 📁 Dashboard
-│   ├── 📄 Rossmann_Dashboard.pbix
-│   ├── 📄 Rossmann_Dashboard.pdf
-│   └── 📁 Screenshots
-│       ├── 🖼️ Executive_Overview.png
-│       ├── 🖼️ Store_Performance.png
-│       ├── 🖼️ Customer_Promotion_Analysis.png
-│       └── 🖼️ Machine_Learning.png
+├── Dashboard
+│   ├── Rossmann_Dashboard.pbix
+│   ├── Rossmann_Dashboard.pdf
+│   └── Screenshots
+│       ├── Executive_Overview.png
+│       ├── Store_Performance.png
+│       ├── Customer_Promotion_Analysis.png
+│       └── Machine_Learning.png
 │
-├── 📁 Data
-│   ├── 📁 Raw
-│   │   ├── 📄 store.csv
-│   │   └── 📄 README.md
-│   │
-│   └── 📁 Processed
-│       ├── 📄 cleaned_sales_sample.csv
-│       └── 📄 README.md
+├── Data
+│   ├── Raw
+│   │   └── store.csv
+│   └── Processed
+│       └── cleaned_sales_sample.csv
 │
-├── 📁 Notebooks
-│   ├── 📓 01_Data_Cleaning.ipynb
-│   ├── 📓 02_Exploratory_Data_Analysis.ipynb
-│   ├── 📓 03_SQL_Business_Analysis.ipynb
-│   └── 📓 04_Machine_Learning_Sales_Forecasting.ipynb
+├── Notebooks
+│   ├── 01_Data_Cleaning.ipynb
+│   ├── 02_Exploratory_Data_Analysis.ipynb
+│   ├── 03_SQL_Business_Analysis.ipynb
+│   └── 04_Machine_Learning_Sales_Forecasting.ipynb
 │
+├── Models
+│   ├── Model_Performance.csv
+│   ├── Actual_vs_Predicted.png
+│   ├── Feature_Importance.png
+│   └── Residual_Distribution.png
 │
-├── 📁 Models
-│   ├── 📄 Model_Performance.csv
-│   ├── 🖼️ Actual_vs_Predicted.png
-│   ├── 🖼️ Feature_Importance.png
-│   └── 🖼️ Residual_Distribution.png
+├── Images
+│   ├── Rossmann_Logo.png
+│   └── Project_Banner.png
 │
-├── 📁 Images
-│   ├── 🖼️ Rossmann_Logo.png
-│   └── 🖼️ Project_Banner.png
-│
-├── 📄 requirements.txt
-├── 📄 LICENSE
-├── 📄 .gitignore
-└── 📄 README.md
+├── requirements.txt
+├── LICENSE
+├── .gitignore
+└── README.md
+```
 ---
 
 # 📊 Machine Learning Models
