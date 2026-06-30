@@ -321,9 +321,9 @@ The notebooks in this repository are designed to work with the original dataset 
 
 B.Sc. Data Science | DIT University
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/UtsavThakur0208
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://linkedin.com/in/utsavthakur01
 
 ---
 
