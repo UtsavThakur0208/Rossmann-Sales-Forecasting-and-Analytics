@@ -295,6 +295,25 @@ Contains:
 - Incorporate time-series forecasting models (Prophet/LSTM)
 
 ---
+## 📂 Dataset
+
+The original **Rossmann Store Sales dataset** is **not included** in this repository because it exceeds GitHub's file size limit.
+
+You can download the dataset from the official Kaggle competition:
+
+🔗 https://www.kaggle.com/competitions/rossmann-store-sales
+
+After downloading, place the following files in the `Data/Raw/` directory:
+
+```text
+Data/
+└── Raw/
+    ├── train.csv
+    ├── test.csv
+    └── store.csv
+```
+
+The notebooks in this repository are designed to work with the original dataset after it is placed in the appropriate directory.
 
 # 👨‍💻 Author
 
