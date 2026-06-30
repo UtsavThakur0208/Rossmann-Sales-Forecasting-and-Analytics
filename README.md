@@ -88,42 +88,47 @@ Compares forecasting models and evaluates prediction quality.
 
 ---
 
-# 📂 Project Structure
-
-```
-Rossmann-Store-Sales-Analytics/
+📦 Rossmann-Store-Sales-Analytics
 │
-├── data/
-│   ├── raw/
-│   │   ├── train.csv
-│   │   └── store.csv
+├── 📁 Dashboard
+│   ├── 📄 Rossmann_Dashboard.pbix
+│   ├── 📄 Rossmann_Dashboard.pdf
+│   └── 📁 Screenshots
+│       ├── 🖼️ Executive_Overview.png
+│       ├── 🖼️ Store_Performance.png
+│       ├── 🖼️ Customer_Promotion_Analysis.png
+│       └── 🖼️ Machine_Learning.png
+│
+├── 📁 Data
+│   ├── 📁 Raw
+│   │   ├── 📄 store.csv
+│   │   └── 📄 README.md
 │   │
-│   └── processed/
-│       └── cleaned_sales.csv
+│   └── 📁 Processed
+│       ├── 📄 cleaned_sales_sample.csv
+│       └── 📄 README.md
 │
-├── notebooks/
-│   └── Rossmann_Sales_Forecasting.ipynb
+├── 📁 Notebooks
+│   ├── 📓 01_Data_Cleaning.ipynb
+│   ├── 📓 02_Exploratory_Data_Analysis.ipynb
+│   ├── 📓 03_SQL_Business_Analysis.ipynb
+│   └── 📓 04_Machine_Learning_Sales_Forecasting.ipynb
 │
-├── sql/
-│   └── business_analysis.sql
 │
-├── powerbi/
-│   └── Rossmann_Dashboard.pbix
+├── 📁 Models
+│   ├── 📄 Model_Performance.csv
+│   ├── 🖼️ Actual_vs_Predicted.png
+│   ├── 🖼️ Feature_Importance.png
+│   └── 🖼️ Residual_Distribution.png
 │
-├── images/
-│   ├── dashboard_page1.png
-│   ├── dashboard_page2.png
-│   ├── dashboard_page3.png
-│   ├── dashboard_page4.png
-│   ├── feature_importance.png
-│   ├── actual_vs_predicted.png
-│   └── residual_distribution.png
+├── 📁 Images
+│   ├── 🖼️ Rossmann_Logo.png
+│   └── 🖼️ Project_Banner.png
 │
-├── requirements.txt
-│
-└── README.md
-```
-
+├── 📄 requirements.txt
+├── 📄 LICENSE
+├── 📄 .gitignore
+└── 📄 README.md
 ---
 
 # 📊 Machine Learning Models
@@ -136,32 +141,6 @@ The following regression models were trained and evaluated.
 | Decision Tree | 0.8818 | 1328.51 | 819.84 |
 | XGBoost | 0.9018 | 1210.80 | 815.29 |
 | ⭐ Random Forest | **0.9067** | **1180.31** | **733.50** |
-
----
-
-# 📈 Dashboard Preview
-
-## Executive Overview
-
-> *(Insert Dashboard Screenshot Here)*
-
----
-
-## Store Performance
-
-> *(Insert Dashboard Screenshot Here)*
-
----
-
-## Customer & Promotion Analysis
-
-> *(Insert Dashboard Screenshot Here)*
-
----
-
-## Machine Learning Dashboard
-
-> *(Insert Dashboard Screenshot Here)*
 
 ---
 
