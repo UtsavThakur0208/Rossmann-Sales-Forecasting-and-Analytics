@@ -219,7 +219,7 @@ making it the best-performing model for future sales prediction.
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Rossmann-Store-Sales-Analytics.git
+git clone https://github.com/UtsavThakur0208/Rossmann-Store-Sales-Analytics.git
 ```
 
 ---
